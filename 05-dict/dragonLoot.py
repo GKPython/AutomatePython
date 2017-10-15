@@ -4,7 +4,7 @@ def displayInventory(inventory):
     for k, v in inventory.items():
         print(str(v) + '\t' + k)
         item_total += v
-    print('-'*40)
+    print('-'*40) #方便
     print("Total number of items: " + str(item_total))
 
 def addToInventory(inventory, addedItems):
