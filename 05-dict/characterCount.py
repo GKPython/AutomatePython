@@ -3,6 +3,6 @@ count = {}
 
 for character in message:
     #count.setdefault(character, 0)
-    count[character] = count.get(character, 0) + 1
+    count[character] = count.get(character, 0) + 1 #get的用法
 
 print(count)
