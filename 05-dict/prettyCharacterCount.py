@@ -6,4 +6,4 @@ for character in message:
     #count.setdefault(character, 0)
     count[character] = count.get(character, 0) + 1
 
-pprint.pprint(count)
+pprint.pprint(count)  #pprin纯净打印
