@@ -12,5 +12,5 @@ while True:
         print('I do not have birthday information for ' + name)
         print('What is their birthday?')
         bday = input()
-        birthdays[name] = bday
+        birthdays[name] = bday  #直接赋值方便
         print('Birthday database updated.')
